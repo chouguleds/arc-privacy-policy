@@ -13,9 +13,19 @@ The Arc website is available at:
 - **[index.md](index.md)** - App landing page with features and download links
 - **[privacy.md](privacy.md)** - Complete privacy policy
 
+## 🎨 Design & Styling
+
+This website uses GitHub Pages with:
+- **Base Theme:** Jekyll Cayman theme
+- **Custom Styling:** Modern CSS with Arc brand colors
+- **Custom HTML:** Enhanced layouts and components
+- **Responsive Design:** Optimized for all devices
+
+See [CUSTOM_STYLING_GUIDE.md](CUSTOM_STYLING_GUIDE.md) for details about the custom styling.
+
 ## 🚀 Deployment
 
-This privacy policy is hosted using GitHub Pages with the Cayman theme.
+This website is hosted using GitHub Pages with Jekyll.
 
 ### Setup Instructions
 

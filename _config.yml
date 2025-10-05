@@ -43,6 +43,7 @@ exclude:
 include:
   - _pages
   - privacy.md
+  - assets
 
 # Default layout
 defaults:

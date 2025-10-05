@@ -1,12 +1,17 @@
 ---
 layout: default
-title: Privacy Policy
+title: Privacy Policy - Arc
 ---
 
-# Privacy Policy for Arc
+<div class="privacy-nav">
+  <a href="index.html">← Back to Home</a>
+</div>
 
-**Effective Date:** October 5, 2025  
-**Last Updated:** October 5, 2025
+<div class="privacy-header">
+  <h1>Privacy Policy for Arc</h1>
+  <p><strong>Effective Date:</strong> October 5, 2025<br>
+  <strong>Last Updated:</strong> October 5, 2025</p>
+</div>
 
 ---
 
@@ -327,11 +332,19 @@ We aim to respond to all inquiries within 7 business days.
 
 ---
 
-**By using Arc, you acknowledge that you have read and understood this Privacy Policy.**
+<div class="section-highlight">
+  <p style="text-align: center; font-size: 1.1em;">
+    <strong>By using Arc, you acknowledge that you have read and understood this Privacy Policy.</strong>
+  </p>
+</div>
 
 ---
 
-*This privacy policy is effective as of October 5, 2025.*
-
-[← Back to Home](index.html)
+<div class="footer-section">
+  <p><em>This privacy policy is effective as of October 5, 2025.</em></p>
+  <div class="footer-links" style="margin-top: 30px;">
+    <a href="index.html">← Back to Home</a>
+    <a href="mailto:everythingrethink@gmail.com">📧 Contact Us</a>
+  </div>
+</div>
 
