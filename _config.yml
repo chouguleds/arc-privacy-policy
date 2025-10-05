@@ -1,0 +1,50 @@
+# GitHub Pages Configuration for Arc Privacy Policy
+
+# Site settings
+title: "Arc - Privacy Policy"
+description: "Privacy Policy for Arc AI Summary App by Rethink"
+author: "Rethink"
+
+# Theme selection
+theme: jekyll-theme-cayman
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en-US
+url: "" # Will be auto-populated by GitHub Pages
+baseurl: "" # Subpath of your site, e.g., /blog
+
+# Social and contact info (for SEO)
+social:
+  name: Rethink
+  links: []
+
+# Google Analytics (optional - add your tracking ID if needed)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude files from build
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Include files
+include:
+  - _pages
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
