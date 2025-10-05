@@ -1,12 +1,17 @@
-# Arc Privacy Policy
+# Arc - Official Website & Privacy Policy
 
-This repository hosts the official Privacy Policy for **Arc** (AI Summary), an Android app developed by **Rethink**.
+This repository hosts the official website and Privacy Policy for **Arc** (AI Summary), an Android app developed by **Rethink**.
 
-## 📄 Privacy Policy
+## 🌐 Website
 
-The complete privacy policy is available at:
-- **GitHub Pages:** [View Privacy Policy](https://[your-username].github.io/arc-privacy-policy/)
-- **Source:** [index.md](index.md)
+The Arc website is available at:
+- **Landing Page:** [https://chouguleds.github.io/arc-privacy-policy/](https://chouguleds.github.io/arc-privacy-policy/)
+- **Privacy Policy:** [https://chouguleds.github.io/arc-privacy-policy/privacy.html](https://chouguleds.github.io/arc-privacy-policy/privacy.html)
+
+## 📄 Files
+
+- **[index.md](index.md)** - App landing page with features and download links
+- **[privacy.md](privacy.md)** - Complete privacy policy
 
 ## 🚀 Deployment
 
@@ -23,7 +28,7 @@ This privacy policy is hosted using GitHub Pages with the Cayman theme.
 
 2. **Wait for deployment:**
    - GitHub will automatically build and deploy the site
-   - Your privacy policy will be available at: `https://[your-username].github.io/arc-privacy-policy/`
+   - Your privacy policy will be available at: `https://chouguleds.github.io/arc-privacy-policy/`
    - Deployment typically takes 1-2 minutes
 
 3. **Verify deployment:**
@@ -32,21 +37,26 @@ This privacy policy is hosted using GitHub Pages with the Cayman theme.
 
 ## 📝 Making Updates
 
-To update the privacy policy:
-
+**To update the landing page:**
 1. Edit the `index.md` file
+2. Commit and push changes
+3. GitHub Pages will automatically rebuild and deploy
+
+**To update the privacy policy:**
+1. Edit the `privacy.md` file
 2. Update the "Last Updated" date at the top of the document
 3. Commit and push changes
 4. GitHub Pages will automatically rebuild and deploy
 
 ## 🔗 Integration with Android App
 
-Once deployed, integrate the privacy policy URL into your Android app:
+Once deployed, integrate the URLs into your Android app:
 
-1. Add the URL to your app's configuration
+1. Add the **privacy policy URL** (`https://chouguleds.github.io/arc-privacy-policy/privacy.html`) to your app's configuration
 2. Link from Settings → Privacy Policy
-3. Include in Google Play Store listing
+3. Include in Google Play Store listing (Data Safety section)
 4. Reference in onboarding flows (optional)
+5. Use the **landing page URL** for marketing and app promotion
 
 ## 📧 Contact
 

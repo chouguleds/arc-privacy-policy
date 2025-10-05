@@ -1,6 +1,6 @@
-# Deployment Guide for Arc Privacy Policy
+# Deployment Guide for Arc Website
 
-This guide will walk you through deploying your privacy policy to GitHub Pages.
+This guide will walk you through deploying your Arc landing page and privacy policy to GitHub Pages.
 
 ## 📋 Prerequisites
 
@@ -65,51 +65,66 @@ git push -u origin main
 4. Once complete, go back to Settings → Pages
 5. You'll see: **"Your site is live at https://YOUR-USERNAME.github.io/arc-privacy-policy/"**
 
-### Step 5: Verify Your Privacy Policy
+### Step 5: Verify Your Website
 
 1. Click the link or visit: `https://YOUR-USERNAME.github.io/arc-privacy-policy/`
-2. Your privacy policy should be displayed with the Cayman theme
-3. Verify all sections are visible and properly formatted
+2. Your landing page should be displayed with the Cayman theme
+3. Click "View Privacy Policy" to navigate to the privacy policy page
+4. Verify all sections are visible and properly formatted on both pages
 
-## 📝 Your Privacy Policy URL
+## 📝 Your Website URLs
 
-Once deployed, your privacy policy will be available at:
+Once deployed, your website will be available at:
 
+**Landing Page:**
 ```
 https://YOUR-USERNAME.github.io/arc-privacy-policy/
 ```
 
-**Save this URL** - you'll need it for:
-- Google Play Store listing
-- Android app integration
+**Privacy Policy Page:**
+```
+https://YOUR-USERNAME.github.io/arc-privacy-policy/privacy.html
+```
+
+**Save the privacy policy URL** - you'll need it for:
+- Google Play Store listing (Data Safety section)
+- Android app integration (Settings → Privacy Policy)
 - User inquiries
 
 ## 🔄 Making Updates
 
-To update your privacy policy:
+To update your website:
 
+**Updating the landing page:**
 ```bash
 # Edit index.md with your changes
-# Then commit and push:
-
 git add index.md
-git commit -m "Update privacy policy - [describe changes]"
+git commit -m "Update landing page - [describe changes]"
 git push
-
-# GitHub Pages will automatically rebuild (1-2 minutes)
 ```
 
-**Important:** Always update the "Last Updated" date at the top of `index.md` when making changes.
+**Updating the privacy policy:**
+```bash
+# Edit privacy.md with your changes
+git add privacy.md
+git commit -m "Update privacy policy - [describe changes]"
+git push
+```
+
+**Important:** Always update the "Last Updated" date at the top of `privacy.md` when making privacy policy changes.
+
+GitHub Pages will automatically rebuild within 1-2 minutes after you push changes.
 
 ## ✅ Next Steps
 
 After deployment, you should:
 
-1. ✅ **Test the URL** - Make sure it's accessible
-2. ✅ **Update Android app** - Add the privacy policy URL to your app configuration
-3. ✅ **Update README.md** - Replace `[your-username]` with your actual GitHub username
-4. ✅ **Google Play Store** - Add the privacy policy URL to your app listing
-5. ✅ **Bookmark the URL** - Keep it handy for future reference
+1. ✅ **Test both URLs** - Make sure landing page and privacy policy are accessible
+2. ✅ **Test navigation** - Verify links between pages work correctly
+3. ✅ **Update Android app** - Add the privacy policy URL (`https://YOUR-USERNAME.github.io/arc-privacy-policy/privacy.html`) to your app configuration
+4. ✅ **Update Play Store** - Add privacy policy URL to Google Play Console → Data Safety
+5. ✅ **Update README.md** - Replace `[your-username]` with your actual GitHub username
+6. ✅ **Bookmark URLs** - Keep both URLs handy for future reference
 
 ## 🛠️ Troubleshooting
 

@@ -1,8 +1,8 @@
-# GitHub Pages Configuration for Arc Privacy Policy
+# GitHub Pages Configuration for Arc
 
 # Site settings
-title: "Arc - Privacy Policy"
-description: "Privacy Policy for Arc AI Summary App by Rethink"
+title: "Arc - AI Summary"
+description: "Understand Your Screen. Instantly. Arc is an intelligent assistant for Android that helps you save time and absorb information more effectively."
 author: "Rethink"
 
 # Theme selection
@@ -32,6 +32,8 @@ social:
 # Exclude files from build
 exclude:
   - README.md
+  - DEPLOYMENT.md
+  - LOCAL_PREVIEW.md
   - .gitignore
   - Gemfile
   - Gemfile.lock
@@ -40,6 +42,7 @@ exclude:
 # Include files
 include:
   - _pages
+  - privacy.md
 
 # Default layout
 defaults:
