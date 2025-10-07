@@ -9,152 +9,97 @@ title: Privacy Policy - Arc: AI Reader & Summary
 
 <div class="privacy-header">
   <h1>Privacy Policy for Arc: AI Reader & Summary</h1>
-  <p><strong>Effective Date:</strong> October 7, 2025<br>
-  <strong>Last Updated:</strong> October 7, 2025</p>
+  <p><strong>Effective Date:</strong> October 7, 2025</p>
 </div>
 
 ---
 
 ## Introduction
 
-Welcome to Arc. This policy explains how we handle your data with transparency and care. Our goal is to provide powerful features while respecting your privacy at every step.
-
----
+Welcome to Arc: AI Reader & Summary. This policy explains how we handle your data with transparency and care. Our goal is to provide powerful features while respecting your privacy at every step.
 
 ## Our Core Privacy Promise
 
-Arc is built to be private by design. Our fundamental promise about how we handle your screen content is:
+Arc is built to be private by design. Our fundamental promise to you is:
 
-* **Content is Processed, Never Stored:** When you request an AI summary, the text from your screen is sent to an AI service for processing. It is **never stored, saved, or logged on our servers.**
 * **You Are in Control:** The app only accesses screen content when you explicitly tap an action in the floating sidebar. It never monitors your screen in the background.
+* **Content is Processed, Never Stored on Servers:** When we process your on-screen text for summaries, it is handled ephemerally and is **never stored, saved, or logged on our servers.**
+* **Your Data Stays Yours:** Any content you explicitly save is stored **encrypted only on your local device.** We cannot see or access this data.
 
 ---
 
-## 1. Information We Handle and Why
+## How We Handle Your On-Screen Data (Sidebar Actions)
 
-To provide our service, we handle two types of information: data you provide for account features and data we process for core functionality.
+When you interact with the floating sidebar, here is exactly what happens with your data:
 
-### 1.1 Data You Provide for Optional Account Features
+* **For "AI Summary":** The text content from your screen is sent securely through our backend to the Google Gemini API (or a fallback AI) to generate a summary. This data is used only for this purpose and is immediately discarded.
 
-Arc is fully functional without an account. However, to enable optional features like cross-device backup, we use Google Sign-In.
+* **For "AI Read":** The text content is processed in the same way as "AI Summary" to generate a summary first. The resulting summary text is then converted to speech **entirely on your device** using Android's built-in Text-to-Speech (TTS) engine. Your data does not leave your device for the TTS function.
 
-* **Google Account Information:** If you choose to sign in, we collect your **Google ID** and **Email Address**. This information is stored securely on our backend servers (hosted on AWS DynamoDB) and is used solely to identify your account for features like Google Drive backup and to prepare for future premium services. We do **not** collect your full name or profile picture.
-* **Saved Content:** Summaries and screenshots you explicitly save are stored **encrypted only on your device**.
-
-### 1.2 Data We Process for Core Functionality
-
-* **On-Screen Content:** When you request a summary or use the "Read Aloud" feature, the app temporarily processes the text content on your screen. This data is sent ephemerally to our AI partners and is immediately discarded after processing.
-* **Anonymous Technical Data:** To fix bugs and improve the app, we collect anonymous, non-personal data like device model, OS version, and crash logs. This data is not linked to your identity.
+* **For "Save Content":**
+    1.  A **screenshot** is taken and saved **encrypted to your local device only.**
+    2.  The **on-screen text** is processed for an AI summary (same as the "AI Summary" action).
+    3.  The resulting summary is also saved **encrypted to your local device only.**
 
 ---
 
-## 2. Third-Party Services & Data Sharing
+## Information We Handle for Other Features
 
-We use reputable third-party services and only share the minimum data necessary.
+#### **Optional Account Information (If You Choose to Sign In)**
 
-<div class="section-highlight" markdown="1">
+Arc is fully functional without an account. However, to enable optional features like Google Drive backup and prepare for future premium services, you can choose to create an account using Google Sign-In.
 
-**AI Services:**
+* **Google Account Information:** If you sign in, we collect your **Google ID** and **Email Address**. This is stored securely on our backend servers (hosted on AWS) to identify your account. We **do not** collect your full name or profile picture.
 
-- **Google Gemini API & OpenAI (Fallback):** We share on-screen text with these AI providers when you request a summary. ([Google Privacy Policy](https://policies.google.com/privacy), [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy))
+#### **Anonymous Technical Data**
 
-**Infrastructure & Services:**
-
-- **Amazon Web Services (AWS):** Our backend, which stores your account information (Google ID, email) if you sign in, is hosted on AWS. ([AWS Privacy Policy](https://aws.amazon.com/privacy/))
-- **Google Sign-In & Google Drive API:** Used for optional authentication and backup features. ([Google Privacy Policy](https://policies.google.com/privacy))
-- **Google AdMob:** We display ads to free-tier users. Upgrading to a future premium plan will remove ads. ([Google Ad Policy](https://policies.google.com/technologies/ads))
-
-</div>
-
-<div class="section-highlight" style="background: rgba(255, 184, 77, 0.15); border-left-color: var(--accent-gold);">
-  <p style="font-size: 1.1em; margin: 0;">
-    <strong>We will never sell your personal information.</strong>
-  </p>
-</div>
+To fix bugs and improve the app, we collect anonymous, non-personal data like device model, OS version, and crash logs. This data is not linked to your identity.
 
 ---
 
-## 3. Data Security & Retention
+## Third-Party Services & Data Sharing
 
-<div class="security-grid" markdown="1">
+We use reputable third-party services and only share the minimum data necessary:
 
-<div markdown="1">
+* **Google Gemini API & OpenAI (Fallback):** For generating AI summaries. ([Google Privacy Policy](https://policies.google.com/privacy), [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy))
+* **Amazon Web Services (AWS):** Our backend, which handles AI requests and stores account information, is hosted on AWS. ([AWS Privacy Policy](https://aws.amazon.com/privacy/))
+* **Google Services:** For optional Sign-In and Drive Backup features.
+* **Google AdMob:** To display banner ads to non-paying users. ([Google Ad Policy](https://policies.google.com/technologies/ads))
 
-**Encryption:**
-
-- All data is encrypted in transit using HTTPS/TLS
-- Account information on our servers is encrypted at rest
-- All content you save on your device is encrypted at rest
-- Protected by Android's app sandboxing (MODE_PRIVATE)
-
-</div>
-
-<div markdown="1">
-
-**Retention:**
-
-- On-screen text is never retained
-- Your local data remains until you delete it
-- Your account information is retained as long as your account is active
-- You can request account deletion at any time
-
-</div>
-
-</div>
+**We will never sell your personal information.**
 
 ---
 
-## 4. Your Rights and Choices
+## Data Security & Retention
 
-You have full control over your data:
-
-* **Manage Local Content:** Delete summaries and screenshots anytime from within the app
-* **Revoke Permissions:** Change app permissions in your device settings
-* **Optional Features:** Using Google Sign-In and Google Drive Backup is completely optional
-* **Request Account Deletion:** Contact us to delete your account and associated data
-* **Data Export:** Use Google Drive backup to export your saved content
-* **Opt Out of Ads:** Disable personalized ads in your device settings
+* **Encryption:** All data is encrypted in transit using HTTPS/TLS. All data you save on your device and any account information on our servers are encrypted at rest.
+* **Retention:** On-screen text for summaries is never retained. Your local data remains until you delete it. Your account information is retained as long as your account is active.
 
 ---
 
-## 5. Additional Information
+## Your Rights and Choices
 
-### Children's Privacy
-
-Arc is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.
-
-### International Data Transfers
-
-Our backend servers are located in the United States. If you are accessing Arc from outside the U.S., your information may be transferred to and processed in the U.S.
-
-### Changes to This Policy
-
-We may update this Privacy Policy from time to time. We will notify you of any material changes through the app or via email. The "Last Updated" date at the top reflects the most recent changes.
-
-### Compliance with Privacy Laws
-
-We comply with applicable privacy laws including GDPR (for European users) and CCPA (for California residents). To exercise your rights under these laws, please contact us.
+You have full control over your data. You can manage and delete your locally stored content, revoke permissions in your device settings, and request account deletion by contacting us. Using features like Google Sign-In and Google Drive Backup is completely optional.
 
 ---
 
-## 6. Contact Us
+## Permissions Explained
 
-If you have any questions about this policy, please contact us at:
+Arc requests certain permissions to provide its features. Here's why we need them:
 
-**Email:** [everythingrethink@gmail.com](mailto:everythingrethink@gmail.com)
-
-**Developer:** Rethink  
-**App:** Arc: AI Reader & Summary
-
-We aim to respond to all inquiries within 7 business days.
+| Permission                  | Purpose                                                                                                 |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **Accessibility Service** | To read on-screen text for our core summary and read-aloud features, activated only by your request.    |
+| **Display Over Other Apps** | To show the floating sidebar, our app's main interface.                                                 |
+| **Internet / Network State**| To communicate with AI services, our backend, and load ads.                                             |
+| **Foreground Service** | To keep the floating sidebar available and responsive while you use other apps.                         |
+| **Receive Boot Completed** | To optionally restart the sidebar service when you reboot your device, so you don't have to open the app again. |
 
 ---
 
-<div class="section-highlight">
-  <p style="text-align: center; font-size: 1.1em;">
-    <strong>By using Arc: AI Reader & Summary, you acknowledge that you have read and understood this Privacy Policy.</strong>
-  </p>
-</div>
+## Contact Us
+
+If you have any questions about this policy, please contact us at: **everythingrethink@gmail.com**
 
 ---
 
