@@ -17,9 +17,19 @@ title: Privacy Policy - Arc: AI Reader & Summary
 
 ## Introduction
 
-Welcome to **Arc: AI Reader & Summary**, developed by **Rethink**. We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
+Welcome to Arc. This policy explains how we handle your data with transparency and care. Our goal is to provide powerful features while respecting your privacy at every step.
 
 By using Arc: AI Reader & Summary, you agree to the collection and use of information in accordance with this policy.
+
+---
+
+## Our Core Privacy Promise
+
+Arc is built to be private by design. Our fundamental promise to you is about how we handle your screen content:
+
+* **Content is Processed, Never Stored:** When you request an AI summary, the text from your screen is sent to an AI service for processing. It is **never stored, saved, or logged on our servers.**
+* **You Are in Control:** The app only accesses screen content when you explicitly tap an action in the floating sidebar. It never monitors your screen in the background.
+* **Local Storage Only:** Your saved summaries and screenshots are stored locally on your device with strong encryption. We never see this data.
 
 ---
 
@@ -77,9 +87,10 @@ By using Arc: AI Reader & Summary, you agree to the collection and use of inform
 - This is done only when you explicitly tap "Summarize"
 - The text is processed and immediately discarded—never stored
 
-**Read Aloud (Text-to-Speech):**
-- Uses Android's built-in TTS engine
+**Read Aloud (On-Device Text-to-Speech):**
+- Uses Android's built-in TTS engine running entirely on your device
 - No data is sent to external servers for this feature
+- Your text never leaves your device during text-to-speech conversion
 
 **Save and Organize:**
 - Summaries, screenshots, and metadata are stored locally on your device using Room database
@@ -119,17 +130,17 @@ By using Arc: AI Reader & Summary, you agree to the collection and use of inform
 We share data with the following third-party services to provide functionality:
 
 **Google Services:**
-- **Google Sign-In:** For authentication
-- **Google Drive API:** For optional backups (only to your personal Drive)
-- **Google Gemini API:** For AI-powered text summarization
-- **Google AdMob:** For displaying advertisements (free tier users)
+- **Google Sign-In:** For authentication ([Privacy Policy](https://policies.google.com/privacy))
+- **Google Drive API:** For optional backups (only to your personal Drive) ([Privacy Policy](https://policies.google.com/privacy))
+- **Google Gemini API:** For AI-powered text summarization ([Privacy Policy](https://policies.google.com/privacy))
+- **Google AdMob:** For displaying advertisements (free tier users) ([Ad Policy](https://policies.google.com/technologies/ads))
 
 **OpenAI (Fallback):**
-- May be used as a fallback AI provider if Gemini is unavailable
+- May be used as a fallback AI provider if Gemini is unavailable ([Privacy Policy](https://openai.com/policies/privacy-policy))
 - Screen text is sent only when you request a summary
 
 **AWS DynamoDB:**
-- Our backend uses AWS DynamoDB to store user account information
+- Our backend uses AWS DynamoDB to store user account information ([Privacy Policy](https://aws.amazon.com/privacy/))
 - Hosted in the US East (N. Virginia) region
 - Stores: User ID, Google ID, email, name, account status
 
@@ -154,7 +165,9 @@ We share data with the following third-party services to provide functionality:
 
 **On Your Device:**
 - All saved summaries, screenshots, search history, and preferences are stored locally using Room database
-- Encrypted by Android's built-in security
+- Protected by Android's app sandboxing (MODE_PRIVATE) - only Arc can access this data
+- Encrypted using Android's file-based encryption on modern devices (Android 7.0+)
+- Data is isolated from other apps and requires device authentication to access
 
 **On Our Servers:**
 - Only basic user account information (Google ID, email, name)
