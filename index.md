@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Arc - Understand Your Screen. Instantly.
+title: Arc: AI Reader & Summary - Understand Your Screen. Instantly.
 ---
 
 <div class="hero-section">
-  <h1>Arc</h1>
+  <h1>Arc: AI Reader & Summary</h1>
   <h2>Understand Your Screen. Instantly.</h2>
   <p class="hero-description">
     An intelligent assistant for your Android device that helps you save time, reduce screen fatigue, and absorb information more effectively. With a seamless floating sidebar, you can instantly summarize, listen to, or save content from any app you're using.

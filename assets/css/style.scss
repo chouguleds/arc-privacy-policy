@@ -150,6 +150,14 @@ p {
   transform: scale(1.05);
 }
 
+.logo-image {
+  height: 40px;
+  width: auto;
+  margin-right: var(--spacing-xs);
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 2px 4px rgba(255, 184, 77, 0.3));
+}
+
 .logo-icon {
   font-size: 1.8rem;
   animation: float 3s ease-in-out infinite;
@@ -160,6 +168,15 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  height: 32px;
+  width: auto;
+  margin-right: var(--spacing-xs);
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 4px rgba(255, 184, 77, 0.2));
 }
 
 .nav-menu {

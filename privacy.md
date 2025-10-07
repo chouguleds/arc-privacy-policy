@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Privacy Policy - Arc
+title: Privacy Policy - Arc: AI Reader & Summary
 ---
 
 <div class="privacy-nav">
@@ -8,7 +8,7 @@ title: Privacy Policy - Arc
 </div>
 
 <div class="privacy-header">
-  <h1>Privacy Policy for Arc</h1>
+  <h1>Privacy Policy for Arc: AI Reader & Summary</h1>
   <p><strong>Effective Date:</strong> October 5, 2025<br>
   <strong>Last Updated:</strong> October 5, 2025</p>
 </div>
@@ -17,9 +17,9 @@ title: Privacy Policy - Arc
 
 ## Introduction
 
-Welcome to **Arc** (AI Summary), developed by **Rethink**. We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
+Welcome to **Arc: AI Reader & Summary**, developed by **Rethink**. We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
 
-By using Arc, you agree to the collection and use of information in accordance with this policy.
+By using Arc: AI Reader & Summary, you agree to the collection and use of information in accordance with this policy.
 
 ---
 
@@ -299,7 +299,7 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 **Email:** [everythingrethink@gmail.com](mailto:everythingrethink@gmail.com)
 
 **Developer:** Rethink  
-**App:** Arc (AI Summary)
+**App:** Arc: AI Reader & Summary
 
 We aim to respond to all inquiries within 7 business days.
 
@@ -334,7 +334,7 @@ We aim to respond to all inquiries within 7 business days.
 
 <div class="section-highlight">
   <p style="text-align: center; font-size: 1.1em;">
-    <strong>By using Arc, you acknowledge that you have read and understood this Privacy Policy.</strong>
+    <strong>By using Arc: AI Reader & Summary, you acknowledge that you have read and understood this Privacy Policy.</strong>
   </p>
 </div>
 

@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/arc-logo.png' | relative_url }}">
 </head>
 <body>
     <!-- Navigation -->
@@ -35,8 +35,8 @@
         <div class="nav-container">
             <div class="nav-brand">
                 <a href="{{ '/' | relative_url }}">
-                    <span class="logo-icon">✨</span>
-                    <span class="logo-text">Arc</span>
+                    <img src="{{ '/assets/images/arc-logo.png' | relative_url }}" alt="Arc Logo" class="logo-image">
+                    <span class="logo-text">Arc: AI Reader & Summary</span>
                 </a>
             </div>
             <div class="nav-menu" id="navMenu">
@@ -72,7 +72,10 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <h3><span class="logo-icon">✨</span> Arc</h3>
+                    <h3>
+                        <img src="{{ '/assets/images/arc-logo.png' | relative_url }}" alt="Arc Logo" class="footer-logo">
+                        Arc: AI Reader & Summary
+                    </h3>
                     <p>Understand Your Screen. Instantly.</p>
                 </div>
                 <div class="footer-links-section">
