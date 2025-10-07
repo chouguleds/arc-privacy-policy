@@ -623,6 +623,39 @@ p {
   margin-top: 0;
 }
 
+/* Security Grid */
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.security-grid > * {
+  background: var(--card-background);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 184, 77, 0.1);
+  transition: all var(--transition-base);
+}
+
+.security-grid > *:hover {
+  border-color: rgba(255, 184, 77, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 184, 77, 0.1);
+}
+
+.security-grid strong {
+  display: block;
+  color: var(--accent-gold);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.1em;
+}
+
+.security-grid ul {
+  margin-top: var(--spacing-sm);
+}
+
 /* Privacy Policy Specific Styles */
 .privacy-header {
   background: radial-gradient(ellipse at top, rgba(255, 184, 77, 0.2) 0%, transparent 70%);
