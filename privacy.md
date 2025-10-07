@@ -52,15 +52,17 @@ Arc is fully functional without an account. However, to enable optional features
 
 We use reputable third-party services and only share the minimum data necessary.
 
-<div class="section-highlight">
+<div class="section-highlight" markdown="1">
 
 **AI Services:**
-* **Google Gemini API & OpenAI (Fallback):** We share on-screen text with these AI providers when you request a summary. ([Google Privacy Policy](https://policies.google.com/privacy), [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy))
+
+- **Google Gemini API & OpenAI (Fallback):** We share on-screen text with these AI providers when you request a summary. ([Google Privacy Policy](https://policies.google.com/privacy), [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy))
 
 **Infrastructure & Services:**
-* **Amazon Web Services (AWS):** Our backend, which stores your account information (Google ID, email) if you sign in, is hosted on AWS. ([AWS Privacy Policy](https://aws.amazon.com/privacy/))
-* **Google Sign-In & Google Drive API:** Used for optional authentication and backup features. ([Google Privacy Policy](https://policies.google.com/privacy))
-* **Google AdMob:** We display ads to free-tier users. Upgrading to a future premium plan will remove ads. ([Google Ad Policy](https://policies.google.com/technologies/ads))
+
+- **Amazon Web Services (AWS):** Our backend, which stores your account information (Google ID, email) if you sign in, is hosted on AWS. ([AWS Privacy Policy](https://aws.amazon.com/privacy/))
+- **Google Sign-In & Google Drive API:** Used for optional authentication and backup features. ([Google Privacy Policy](https://policies.google.com/privacy))
+- **Google AdMob:** We display ads to free-tier users. Upgrading to a future premium plan will remove ads. ([Google Ad Policy](https://policies.google.com/technologies/ads))
 
 </div>
 
@@ -74,19 +76,29 @@ We use reputable third-party services and only share the minimum data necessary.
 
 ## 3. Data Security & Retention
 
-<div class="security-grid">
+<div class="security-grid" markdown="1">
+
+<div markdown="1">
 
 **Encryption:**
-* All data is encrypted in transit using HTTPS/TLS
-* Account information on our servers is encrypted at rest
-* All content you save on your device is encrypted at rest
-* Protected by Android's app sandboxing (MODE_PRIVATE)
+
+- All data is encrypted in transit using HTTPS/TLS
+- Account information on our servers is encrypted at rest
+- All content you save on your device is encrypted at rest
+- Protected by Android's app sandboxing (MODE_PRIVATE)
+
+</div>
+
+<div markdown="1">
 
 **Retention:**
-* On-screen text is never retained
-* Your local data remains until you delete it
-* Your account information is retained as long as your account is active
-* You can request account deletion at any time
+
+- On-screen text is never retained
+- Your local data remains until you delete it
+- Your account information is retained as long as your account is active
+- You can request account deletion at any time
+
+</div>
 
 </div>
 
