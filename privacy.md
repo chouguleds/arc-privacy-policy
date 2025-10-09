@@ -37,9 +37,35 @@ When you interact with the floating sidebar, here is exactly what happens with y
 * **For "AI Read":** The text content is processed in the same way as "AI Summary" to generate a summary first. The resulting summary text is then converted to speech **entirely on your device** using Android's built-in Text-to-Speech (TTS) engine. Your data does not leave your device for the TTS function.
 
 * **For "Save Content":**
-    1.  A **screenshot** is taken and saved **encrypted to your local device only.**
-    2.  The **on-screen text** is processed for an AI summary (same as the "AI Summary" action).
-    3.  The resulting summary is also saved **encrypted to your local device only.**
+    1.  **Consent Required:** When you first tap "Save Content", you'll be asked for permission to capture screenshots. You can grant or deny this permission, and change your choice later in Settings.
+    2.  **Screenshot Capture (if permitted):** If you grant permission, a screenshot of your current screen is captured and saved **encrypted to your local device only**. Screenshots are never taken automatically or in the background.
+    3.  **Text Processing:** The on-screen text is processed for an AI summary (same as the "AI Summary" action).
+    4.  **Local Storage:** Both the screenshot and summary are saved **encrypted only on your device**. They are never uploaded to our servers unless you choose to back them up to Google Drive.
+    5.  **Full Control:** You can delete saved content at any time from within the app, and you can change your screenshot permission in Settings.
+
+---
+
+## Screenshot Permissions & Transparency
+
+We want to be completely transparent about how screenshots work in Arc:
+
+### When Are Screenshots Taken?
+
+* **Only with explicit permission:** You must grant screenshot permission when you first tap "Save Content"
+* **Only when you tap the button:** Screenshots are never captured automatically or in the background
+* **You can deny or revoke permission:** If you deny permission, content is still saved but without screenshots
+
+### What Happens to Screenshots?
+
+* **Stored locally only:** Screenshots are saved securely on your device
+* **Never sent to servers:** Screenshots never leave your device unless you explicitly choose Google Drive backup
+* **You control deletion:** Delete any saved content (including screenshots) at any time from the app
+* **Android 11+ only:** Screenshot capture requires Android 11 or higher. On older versions, content is saved without screenshots.
+
+### Managing Screenshot Permission
+
+* **In-app control:** Go to Settings > General Settings > Screenshot Permission to enable or disable
+* **System settings:** You can also revoke the accessibility service permission in your phone's Settings
 
 ---
 
@@ -89,7 +115,7 @@ Arc requests certain permissions to provide its features. Here's why we need the
 
 | Permission                  | Purpose                                                                                                 |
 | :-------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **Accessibility Service** | To read on-screen text for our core summary and read-aloud features, activated only by your request.    |
+| **Accessibility Service** | To read on-screen text and capture screenshots when you explicitly request them. Only active when you tap sidebar actions, never in the background. Screenshot capture requires your consent. |
 | **Display Over Other Apps** | To show the floating sidebar, our app's main interface.                                                 |
 | **Internet / Network State**| To communicate with AI services, our backend, and load ads.                                             |
 | **Foreground Service** | To keep the floating sidebar available and responsive while you use other apps.                         |
